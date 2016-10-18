@@ -1,9 +1,10 @@
 # nodejs-start
 
-a startup of nodejs project, list of libs:
+a startup of nodejs project
+list of used libs:
 
-*winston - Logging
-*pm2     - process mgmt
+* winston - Logging
+* pm2     - process mgmt
 
 ## Development Workflow
 
