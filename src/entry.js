@@ -11,6 +11,7 @@ var method = process.argv.slice(2)[0],
 var http = require('http');
 
 if (method === 'worker') {
+    logger.info('start worker process');
     http.createServer(function (req, res) {
         res.writeHead(200, { 'Content-Type': 'text/plain' }); res.end('Hello World\n'); 
     }).listen(1337, "127.0.0.1"); 

@@ -1,23 +1,28 @@
 # nodejs-start
 
-a startup for Nodejs project, contains following libs:
+a startup of nodejs project, list of libs:
 
-winston - Logging
-pm2     - process mgmt
+*winston - Logging
+*pm2     - process mgmt
 
 ## Development Workflow
 
-### Step One
+### Install
 
 ```
 npm install 
 ```
-### Step Two
+### Test
 
 ```
 node startup worker 3000
+pm2 monit
+pm2 logs 0
+cat log/info.log
+pm2 stop all
+pm2 delete all
+node src/entry.js worker 3000
 ```
-### Step Three
 
 ## License
 
