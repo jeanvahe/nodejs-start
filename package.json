@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-start",
+  "version": "1.0.0",
+  "description": "nodejst startup",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanvahe/nodejs-start.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "jeanvahe",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jeanvahe/nodejs-start/issues"
+  },
+  "homepage": "https://github.com/jeanvahe/nodejs-start#readme",
+  "dependencies": {
+    "pm2": "^2.0.18",
+    "winston": "^2.2.0"
+  }
+}
